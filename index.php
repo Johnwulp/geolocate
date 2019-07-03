@@ -91,7 +91,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">
-        <img src="/static/images/googlemaps.png" width="40" height="40" class="d-inline-block align-middle" alt="">
+        <img src="googlemaps.png" width="40" height="40" class="d-inline-block align-middle" alt="">
           <span class="align-middle">
           GeoLocateThis!
           </span>
