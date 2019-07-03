@@ -1,0 +1,119 @@
+/* Navbar styling */
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+/* Form styling */
+
+.errorlist {
+  color: red;
+}
+
+label {
+  text-align: left;
+  margin-top: 3px;
+  margin-bottom: 0px
+}
+
+#form_container {
+  max-width: 100%;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.btn {
+  width: 100%;
+}
+
+
+/* Right cointainer with text styling */
+
+#list_container {
+  max-width: 100%;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+
+/* Style loader */
+
+#loader {
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    display:    none;
+    cursor: wait;
+    background: rgba( 255, 255, 255, .8 )
+                /* url('http://i.stack.imgur.com/FhHRx.gif')
+                50% 50%
+                no-repeat; */
+}
+
+#loader > p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #104e8b;
+  position: fixed;
+  top: 55%;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin-top: 0px;
+}
+
+.lds-ring {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  margin:auto;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  position:fixed;
+}
+
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  margin: 6px;
+  border: 6px solid #104e8b;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #104e8b transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Style results */
+
+#map_wrapper {
+    height: 400px;
+}
+
+#map_canvas {
+    width: 100%;
+    height: 100%;
+}
